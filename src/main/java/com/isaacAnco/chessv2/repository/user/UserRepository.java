@@ -1,4 +1,8 @@
 package com.isaacAnco.chessv2.repository.user;
 
-public class UserRepository {
+import com.isaacAnco.chessv2.model.user.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface UserRepository extends JpaRepository<User, Long> {
+    boolean existsByEmail(String email);
 }

@@ -9,6 +9,7 @@ import java.time.LocalDateTime;
 @Setter
 public class UserResponseDto {
     private String id;
+    private String email;
     private String userName;
     private boolean isActive;
     private Number draws;

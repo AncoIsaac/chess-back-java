@@ -47,4 +47,5 @@ public class User {
 
     @Column(name = "draws")
     private Number draws = 0;
+
 }
