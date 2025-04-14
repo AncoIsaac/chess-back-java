@@ -24,6 +24,6 @@ public class UserRequestDto {
     @Size(min = 8, message = "Password must be at least 8 characters long")
     private String password;
 
-    @Schema(description = "User's name", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+    @Schema(description = "User's name")
     private String userName;
 }
