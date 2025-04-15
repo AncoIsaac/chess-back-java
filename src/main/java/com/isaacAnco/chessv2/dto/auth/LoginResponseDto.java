@@ -8,5 +8,4 @@ import lombok.Setter;
 public class LoginResponseDto {
     private String id;
     private String email;
-    private boolean isActive;
 }
