@@ -51,6 +51,7 @@ public class Config {
                         .requestMatchers(
                                 "/",
                                 "/api/**",
+                                "/ws/**",
                                 "/swagger-ui.html",       // Swagger UI HTML
                                 "/swagger-ui/**",        // Swagger UI recursos (JS, CSS)
                                 "/v3/api-docs",           // Documentación OpenAPI (JSON)
