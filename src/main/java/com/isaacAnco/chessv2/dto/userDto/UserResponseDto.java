@@ -12,9 +12,9 @@ public class UserResponseDto {
     private String email;
     private String userName;
     private boolean isActive;
-    private Number draws;
-    private Number loss;
-    private Number wins;
+    private Integer draws;
+    private Integer loss;
+    private Integer wins;
     private LocalDateTime updatedAt;
     private LocalDateTime createdAt;
 }

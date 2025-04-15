@@ -39,13 +39,13 @@ public class User {
     @Column(name = "is_active")
     private Boolean isActive = true;
 
-    @Column(name = "wins")
-    private Number wins = 0;
+    @Column(name = "wins", columnDefinition = "integer default 0")
+    private Integer wins = 0;
 
-    @Column(name = "Losses")
-    private Number loss = 0;
+    @Column(name = "losses", columnDefinition = "integer default 0")
+    private Integer losses = 0;
 
-    @Column(name = "draws")
-    private Number draws = 0;
+    @Column(name = "draws", columnDefinition = "integer default 0")
+    private Integer draws = 0;
 
 }
